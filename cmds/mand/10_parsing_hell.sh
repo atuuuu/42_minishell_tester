@@ -29,10 +29,10 @@ echo '' -n
 
 echo "" "" "" -n -n -n -n
 
-cat << $USER
-why
-not
-$USER
+# cat << $USER
+# why
+# not
+# $USER
 
 export T=">>"
 $T lol
