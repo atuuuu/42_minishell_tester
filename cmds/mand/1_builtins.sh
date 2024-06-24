@@ -357,7 +357,7 @@ pwd
 
 # env | wc -l
 
-env what
+# env what
 
 ### PWD ###
 pwd
@@ -471,7 +471,7 @@ export TES#T=123
 
 export TES@T=123
 
-export TES!T=123
+# export TES!T=123
 
 export TES$?T=123
 
