@@ -7,7 +7,7 @@ mkdir 42_minishell_tester_tmp
 
 cd 42_minishell_tester_tmp
 
-git clone https://github.com/zstenger93/42_minishell_tester.git
+git clone https://github.com/atuuuu/42_minishell_tester.git
 
 cp -r 42_minishell_tester $HOME
 
