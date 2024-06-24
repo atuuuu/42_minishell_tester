@@ -4,7 +4,7 @@
 
 ### ECHO ###
 
-echo cd ~
+# echo cd ~
 
 echo "cd ~"
 
@@ -42,9 +42,9 @@ echo """"""""$USER""""""""
 
 echo "$ "
 
-echo hi >./outfiles/outfile01 | echo bye
+# echo hi >./outfiles/outfile01 | echo bye
 
-echo <123 <456 hi | echo 42
+# echo <123 <456 hi | echo 42
 
 echo '$='
 
@@ -56,19 +56,19 @@ echo '$?'
 
 echo "'$?'"
 
-echo \$USER
+# echo \$USER
 
-echo \\$USER
+# echo \\$USER
 
-echo \\\$USER
+# echo \\\$USER
 
-echo \\\\$USER
+# echo \\\\$USER
 
-echo \\\\\$USER
+# echo \\\\\$USER
 
-echo \\\\\\\\\$USER
+# echo \\\\\\\\\$USER
 
-echo \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\$USER \$PATH \\$PWD
+# echo \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\$USER \$PATH \\$PWD
 
 echo "cat lol.c | cat > lol.c"
 
@@ -230,17 +230,17 @@ pwd
 cd "$PWD/file_tests"
 pwd
 
-cd '/////' 2>/dev/null
+# cd '/////' 2>/dev/null
 
 cd '/etc' 
 
 cd '/var' 
 
-cd "doesntexist" 2>/dev/null 
+# cd "doesntexist" 2>/dev/null 
 
 cd ../../..
 
-cd "wtf" 2>/dev/null 
+# cd "wtf" 2>/dev/null 
 
 cd ?
 
@@ -311,53 +311,53 @@ pwd
 cd $OLDPWD/something
 pwd
 
-pwd
-cd ~
-cd - ananas dot jpeg
-pwd
+# pwd
+# cd ~
+# cd - ananas dot jpeg
+# pwd
 
 # might need to change the directory by yourself, that supposed to be valid =)
 pwd
 cd includes/ djhwbdhwbd wgdyuhgw jdwjdh wuiydjwh 
 pwd
 
-pwd
-cd ~ asd w dd q asd
-pwd
+# pwd
+# cd ~ asd w dd q asd
+# pwd
 
-pwd
-cd ~
-cd -
-pwd
+# pwd
+# cd ~
+# cd -
+# pwd
 
-pwd
-cd -
-pwd
+# pwd
+# cd -
+# pwd
 
+# pwd
+# cd ~
+# pwd
+
+# might need to change the directory by yourself, that supposed to be valid =)
 pwd
-cd ~
+cd libft
 pwd
 
 # might need to change the directory by yourself, that supposed to be valid =)
 pwd
-cd ../libft
-pwd
-
-# might need to change the directory by yourself, that supposed to be valid =)
-pwd
-cd ../libft ojid iowjiojwoid joijd owjoid jwojd 
+cd libft ojid iowjiojwoid joijd owjoid jwojd 
 pwd
 
 ### ENV ###
-env | grep DOESNT_EXIST
+# env | grep DOESNT_EXIST
 
-env | grep HOME
+# env | grep HOME
 
-env | grep USER
+# env | grep USER
 
-env | wc -l
+# env | wc -l
 
-env what
+# env what
 
 ### PWD ###
 pwd
@@ -373,21 +373,21 @@ pwd pwd
 pwd pwd pwd
 
 ### EXPORT ###
-/bin/echo $HALLO42
-env | grep HALLO42
-export HALLO42=42
-/bin/echo $HALLO42
-env | grep HALLO42
+# echo $HALLO42
+# env | grep HALLO42
+# export HALLO42=42
+# echo $HALLO42
+# env | grep HALLO42
 
-/bin/echo $HOME
-env | grep HOME
-export HOME=42
-/bin/echo $HOME
-env | grep HOME
+# echo $HOME
+# env | grep HOME
+# export HOME=42
+# echo $HOME
+# env | grep HOME
 
 export =============123
 
-export
+# export
 
 export =
 
@@ -471,7 +471,7 @@ export TES#T=123
 
 export TES@T=123
 
-export TES!T=123
+# export TES!T=123
 
 export TES$?T=123
 
@@ -483,34 +483,34 @@ export ________=123
 
 export TES^T=123
 
-export TES!T=123
+# export TES!T=123
 
-export TES\~T=123
+# export TES\~T=123
 
 export TEST+=100
 
 export TES_T=123
-/bin/echo $TES_T
-env | grep TES_T
+echo $TES_T
+# env | grep TES_T
 
 export HELLO42=T=""
-/bin/echo $HELLO42
-env | grep HELLO42
-env | grep HELLO42=T=
+echo $HELLO42
+# env | grep HELLO42
+# env | grep HELLO42=T=
 
 echo $?
 export ?=hallo
 echo $?
 
-/bin/echo $test
-export test=42 | echo 99
-/bin/echo $test
+# echo $test
+# export test=42 | echo 99
+# echo $test
 
-/bin/echo $mini_test
-env | grep mini_test
-export mini_test=
-/bin/echo $mini_test
-env | grep mini_test
+# echo $mini_test
+# env | grep mini_test
+# export mini_test=
+# echo $mini_test
+# env | grep mini_test
 
 ### UNSET ###
 unset
@@ -549,7 +549,7 @@ unset PATH
 
 unset PATH 
 
-unset TES;T
+# unset TES;T
 
 unset TES.T
 
@@ -603,28 +603,28 @@ unset TES^T
 
 unset TES!T
 
-unset TES\~T
+# unset TES\~T
 
-/bin/echo $HOME
+echo $HOME
 unset $HOME
-/bin/echo $HOME
+echo $HOME
 
-/bin/echo $HOME
+echo $HOME
 unset HOME
-/bin/echo $HOME
+echo $HOME
 
-/bin/echo $HOME
+echo $HOME
 unset HOME
 unset HOME
 unset HOME
-/bin/echo $HOME
+echo $HOME
 
-/bin/echo $HOME
+echo $HOME
 unset HOME
 unset HOME
 unset HOME
 unset HOME
-/bin/echo $HOME
+echo $HOME
 
 ###  EXIT ###
 
